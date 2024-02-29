@@ -1,0 +1,37 @@
+.active {
+    padding: 10px;
+    background: linear-gradient(to left, #1074BB, #93268F);
+    cursor: pointer;
+    margin-top: 10px;
+    width: 450px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    }
+    
+    .default {
+    padding: 10px;
+    background:#93268F;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 450px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    }
+
+    .default:hover {
+    background: #1074BB;
+    }
+    
+    .content {
+    padding: 15px 30px;
+    color: #20262E;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    }
