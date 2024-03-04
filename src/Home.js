@@ -6,6 +6,7 @@ import imgHotel from './assets/hotel_icon.png';
 import imgDiagnosis from './assets/diagnost_icon.png';
 import imgPaw from './assets/icons8-veterinary.png';
 import Footer from './Footer';
+import Music from './Music';
 
 function Home() {
     return (
@@ -59,12 +60,13 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div class='call-us-btn'>
-  <a href='tel:+90517171771' class='home-btn'>
-    <img src={imgPaw} alt='Call Us Icon' class='icon-img'/>
+            <div className='call-us-btn'>
+  <a href='tel:+90517171771' className='home-btn'>
+    <img src={imgPaw} alt='Call Us Icon' className='icon-img'/>
     Call Us Now
   </a>
 </div>
+<Music/>
 <Footer/>
         </div>
         

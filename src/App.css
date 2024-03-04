@@ -155,7 +155,7 @@ margin-top: 20px;
 .call-us-btn {
   display: flex;
   justify-content: center;
-  transform: translateY(-80%);
+  transform: translateY(-60%);
 }
 
 .home-btn {
@@ -207,7 +207,7 @@ margin-top: 20px;
   color: #20262E;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.8;
+  line-height: 2;
 }
 .end-about {
   font-family: "Roboto", sans-serif;
@@ -257,6 +257,7 @@ color: #fff;
 }
 .vet-img {
   box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+  width: 500px;
 }
 .parent {
   display: flex;
@@ -397,12 +398,17 @@ color: #fff;
  margin-bottom: 50px;
 }
 
+
 .imag-hotel {
-  max-width: 600px; 
+  max-width: 600px;
   max-height: 400px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 1);
-
 }
+
+.slick-slider {
+  max-width: 600px; 
+}
+  
 .pet-hotel {
   color: #93268F;
   font-family: "Roboto", sans-serif;
@@ -426,4 +432,235 @@ margin-top: 50px;
 }
 .footer-content {
   margin-left: 20px;
+}
+
+.music-btn {
+  color: #1074BB;
+  border: none;
+  background: transparent;
+  width: 100px;
+  height: 100px;
+  transform: translateY(80%);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    margin-top: 10px;
+      height: 80px;
+      flex-direction: column;
+      padding: 0 20px; 
+    }
+    
+    .link {
+      font-size: 10px;
+    }
+    
+    .logo img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+    
+    .logo-text, .logo-address {
+      flex-direction: column; 
+      margin-left: 10px;
+    }
+    
+    .address {
+      font-size: 10px; 
+      line-height: 1;
+    }
+    
+    .petvet {
+      font-size: 20px; 
+    }
+    
+    .clinic {
+      font-size: 15px;
+      margin-left: 15px;
+    }
+   
+    .menu-link {
+      margin-left: 10px; 
+    }
+    
+    .home-photo {
+      margin-top: 10px;
+    }
+    
+    .welcome {
+      right: 2%;
+      top: 2%;
+      transform: translateY(-50%);
+      font-size: 20px;
+    }
+    .welcome-block {
+      flex-direction: column;
+    }
+    
+    .welcome-name {
+      right: 2%;
+      transform: translateY(-700%);
+      font-size: 20px;
+    }
+    
+    .icon-block {
+      flex-direction: column;
+    }
+    
+    .icon-container {
+      width: 100px;
+      height: 100px;
+      transform: translateY(-20%);
+    }
+    
+    .round-icon {
+      width: 60px;
+    }
+    
+    .icon-text {
+      font-size: 10px;
+      transform: translateY(-70%)
+    }
+    
+    .call-us-btn {
+      transform: translateY(20%);
+    }
+    
+    .home-btn {
+      width: 210px;
+      height: 60px;
+      font-size: 20px;
+    }
+    
+    .icon-img {
+      width: 30px; 
+      margin-left: 20px;
+    }
+    
+.music-btn {
+  width: 100px;
+  height: 100px;
+  transform: translateY(20%);
+  
+}
+.footer {
+  max-height: 80px;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .copyright {
+    font-size: 12px;
+  }
+  .footer-content {
+    margin-left: 5px;
+  }
+
+  .vet-container {
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .vet-text, .vet-gallery {
+    max-width:  350px;
+    padding: 10px;
+  }
+  .main-about {
+    font-size: 20px;
+  }
+  .text-about {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .end-about {
+    font-size: 16px;
+  }
+  .vet-name {
+    font-size: 16px;
+  }
+  .vet-description {
+    font-size: 15px;
+  }
+  .btn-previous {
+    width: 100px;
+    font-size: 10px;
+  }
+  .btn-next {
+  width: 100px;
+    font-size: 10px;
+  }
+  .vet-img {
+   width: 300px;
+  }
+  .parent {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .child, .child-right, .child-left {
+    width: 100px;
+    height: 150px;
+  }
+
+  .number {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 10px;
+}
+
+.card-text, .hotel-text, .salon-text {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-left: 10px;
+
+}
+.card-price {
+  font-size: 20px;
+  margin-left: 10px;
+  
+}
+
+.main-hotel {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.hotel-container {
+  margin-top: 10px;
+  flex-direction: column;
+ margin-bottom: 10px;
+ margin-left: 10px;
+}
+
+
+.imag-hotel {
+  max-width: 350px;
+  max-height: 150px;
+}
+
+.slick-slider {
+  max-width: 350px; 
+}
+  
+.pet-hotel {
+  font-size: 20px;
+}
+
+.back {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.change {
+  margin: 15px;
+  font-size: 10px;
+  }
 }

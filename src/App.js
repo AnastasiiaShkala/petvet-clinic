@@ -14,7 +14,7 @@ import './App.css';
 import img from './assets/icons8-veterinary.png';
 
 function App() {
-  return (<Router>
+  return (<div><Router>
     <nav className='navbar'>
   <div className="logo">
     <img src={img} alt="Logo"/>
@@ -36,12 +36,14 @@ function App() {
   </div>
 </nav>
     <Routes>
+    <Route path="/" element={<Home />} />
     <Route path="/home" element={<Home/>}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/hotel" element={<Hotel/>}/>
     <Route path="/salon" element={<Salon/>}/>
   </Routes>
     </Router>
+    </div>
   );
 }
 

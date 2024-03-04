@@ -33,13 +33,13 @@ function About() {
             <div className='vet-text'>
             <h1 className='main-about'> About Us</h1>
               <p className='text-about'>Our dedicated team of veterinarians and staff is committed to delivering specialized care through personalized wellness plans tailored to your pet's individual health needs. Our state-of-the-art facility offers advanced diagnostic, surgical, and therapeutic services, ensuring comprehensive medical care for your beloved companion. With our on-site pet hotel and grooming salon, we are equipped to promptly address all your pet's requirements.
-                <br/><br/>Since our establishment in 2010, our primary aim has been to foster a nurturing, welcoming, and compassionate environment. We understand the special bond you share with your pet and possess the expertise to cater to a diverse range of companions, including cats, dogs, ferrets, guinea pigs, rabbits, as well as exotic animals such as birds and reptiles
+                <br/><br/>Since our establishment in 2010, our primary aim has been to foster a nurturing, welcoming, and compassionate environment. We understand the special bond you share with your pet and possess the expertise to cater to a diverse range of companions.
               </p>
               <p className='end-about'>We will make your pets healthy and happy!</p>
             </div>
             <div className='vet-gallery'>
               <h2 className='main-about'>Our Team</h2>
-              <img className='vet-img' src={image} width='500px' alt='Person'/>
+              <img className='vet-img' src={image}  alt='Person'/>
               <h2 className='vet-name'> {name}</h2>
               <p className='vet-description'>{description}</p>
               <button onClick={previousPerson} className='btn-previous'>Previous</button>
