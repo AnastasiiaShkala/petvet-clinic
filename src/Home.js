@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import img from './assets/groom-dog-cut-small.png';
 import imgMedicine from './assets/medicin_icon.png';
 import imgVet from './assets/vet_icon.png';
@@ -7,19 +8,31 @@ import imgDiagnosis from './assets/diagnost_icon.png';
 import imgPaw from './assets/icons8-veterinary.png';
 import Footer from './Footer';
 import Music from './Music';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Home() {
+    useEffect(() => {
+        AOS.init({
+            offset: 0, 
+            duration: 900,
+            easing: 'ease-in-out',
+            delay: 200,
+            once: true
+        });
+    }, []);
+
     return (
         <div className="position-relative">
             <div className='welcome-block'> 
-                 <p className='welcome'>Welcome to </p>
-                 <h1 className='welcome-name'>PetVet Clinic</h1>
-                </div>
+                <p className='welcome'>Welcome to </p>
+                <h1 className='welcome-name'>PetVet Clinic</h1>
+            </div>
             
-                 <img className='home-photo' src={img} alt="Dog"/>
+            <img className='home-photo' src={img} alt="Dog"/>
 
-            <div className='icon-block'>
-                <div className='icon-text-column'> 
+            <div className='icon-block' data-aos="fade-down">
+            <div className='icon-text-column'> 
                      <div className="icon-container">
                           <img className='round-icon' src={imgVet} alt='Urgent medical care icon'/>
                      </div>
@@ -60,16 +73,19 @@ function Home() {
                     </div>
                 </div>
             </div>
+            
+
             <div className='call-us-btn'>
-  <a href='tel:+90517171771' className='home-btn'>
-    <img src={imgPaw} alt='Call Us Icon' className='icon-img'/>
-    Call Us Now
-  </a>
-</div>
-<Music/>
-<Footer/>
+                <a href='tel:+90517171771' className='home-btn'>
+                    <img src={imgPaw} alt='Call Us Icon' className='icon-img'/>
+                    Call Us Now
+                </a>
+            </div>
+
+            <Music/>
+            <Footer/>
         </div>
-        
-    )
+    );
 }
+
 export default Home;

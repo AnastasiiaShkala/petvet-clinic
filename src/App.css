@@ -449,7 +449,7 @@ margin-top: 50px;
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 912px) {
   .navbar {
     margin-top: 10px;
       height: 80px;
