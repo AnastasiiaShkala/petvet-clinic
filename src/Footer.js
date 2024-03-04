@@ -11,10 +11,10 @@ function Footer() {
          <p>&copy; 2024 Anastasiia Shkala. All rights reserved.</p>
         </div>
         <div>
-        <a href='#'>
+        <a href='https://www.facebook.com/'>
             <img src={FacebookIcon} alt='Facebook' className='footer-content'/>
         </a>
-        <a href='#'>
+        <a href='https://www.instagram.com/'>
             <img src={InstagramIcon} alt='Instagram'  className='footer-content' />
         </a>
         
